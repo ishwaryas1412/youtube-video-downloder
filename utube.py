@@ -89,3 +89,4 @@ button_start_downloding.place(x=250,y=530)
 
 
 mainloop()
+#for only lower resolution
