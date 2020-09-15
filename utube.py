@@ -86,7 +86,7 @@ resolution_disp.place(x=300,y=200,height=200,width=350)
 #Button to start downloading
 button_start_downloding=tk.Button(text='Start Downloading',command=start_download,fg='red',font=('verdana',12))
 button_start_downloding.place(x=250,y=530)
-
+#FOR BUUTONS
 
 mainloop()
 #for only lower resolution
