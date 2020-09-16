@@ -2,7 +2,7 @@ from pytube import YouTube	#module for downloading youtube video
 from tkinter import *		#module making Graphical User Interface
 import tkinter as tk
 import tkinter.messagebox
-import time
+import time #pip install datetime
 
 
 window=tk.Tk()
