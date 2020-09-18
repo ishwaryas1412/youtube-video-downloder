@@ -28,7 +28,7 @@ def start_download():
     try:
         yt = YouTube(link)#establishing connection with youtube
     except:
-        resolution_disp.insert(tk.END,"Connection Error")#if there is network or connection problem of internet
+        resolution_disp.insert(tk.END,"Connection Error")#if there is network or connection problem of internet it tries
 
 
     mp4files = yt.filter('mp4')#filtering only mp4 videos
